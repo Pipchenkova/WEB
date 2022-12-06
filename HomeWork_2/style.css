@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0 40px 0 40px;
+    flex-wrap: wrap;
+    
+}
+.header{
+    background: #DFDFDF;
+    border: 1px solid #B5B7BA;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.heading{
+    text-align: center;
+    background-color: bisque;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.title{
+    color: rgb(222, 26, 26);
+    font-weight: bold;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content:center;
+}
+.foto{
+    border: 3px solid blue;
+    border-radius: 25px;
+}
+.menu_link{
+    font-size: 25px;
+    color: black;
+}
+.text{
+    width: 500px;
+    
+}
+.block{
+    width: 900px;
+    height: 500px;
+    border: 1px;color: black;
+    background-image: url(https://www.intravino.com/wp-content/uploads/Schermata-2018-12-23-alle-19.52.57-750x400.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+    background: #404243;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #C5C5C5;
+    margin-top: 117px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.content{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 64px;
+    flex-wrap: wrap;
+}
